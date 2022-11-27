@@ -9,6 +9,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    background-color: black;
 }
 
 body {
@@ -30,4 +31,12 @@ section#telefone {
     width: 311px;
     height: 627px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
